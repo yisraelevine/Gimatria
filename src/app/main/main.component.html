@@ -1,0 +1,6 @@
+<main>
+    <div *ngFor="let el of data; index as i">
+        <label>{{ el[1] }}</label>
+        <input type="number" [value]="sum[i]" (input)="setSum(i, input.value)" #input>
+    </div>
+</main>

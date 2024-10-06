@@ -1,0 +1,11 @@
+div {
+    color: #332c17;
+    font-weight: bolder;
+    font-size: 38px;
+    text-align: center;
+}
+
+div::selection {
+    color: #7d6c37;
+    background-color: #332c17;
+}
